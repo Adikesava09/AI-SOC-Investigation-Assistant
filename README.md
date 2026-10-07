@@ -40,6 +40,23 @@ A Python-based SOC investigation assistant for analyzing security alerts and sus
 
 
 
+## Screenshots
+
+### SOC Investigation
+![SOC Investigation](soc-investigation.png)
+
+### SOC Dashboard
+![SOC Dashboard](soc-dashboard.png)
+
+### Dashboard Filtering
+![Dashboard Filtering](dashboard-filter.png)
+
+### Authentication Detection
+![Authentication Detection](authentication-detector.png)
+
+
+
+
 \## Technologies
 
 
