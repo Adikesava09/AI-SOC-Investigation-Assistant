@@ -1,0 +1,42 @@
+[
+    {
+        "id": 101,
+        "timestamp": "2026-10-07 09:15:21",
+        "source_ip": "203.0.113.50",
+        "username": "admin",
+        "event": "Failed login",
+        "message": "Multiple failed login attempts"
+    },
+    {
+        "id": 102,
+        "timestamp": "2026-10-07 09:17:45",
+        "source_ip": "203.0.113.50",
+        "username": "admin",
+        "event": "Failed login",
+        "message": "Authentication failure"
+    },
+    {
+        "id": 103,
+        "timestamp": "2026-10-07 09:18:10",
+        "source_ip": "203.0.113.50",
+        "username": "admin",
+        "event": "Successful login",
+        "message": "Successful authentication after multiple failures"
+    },
+    {
+        "id": 104,
+        "timestamp": "2026-10-07 09:25:32",
+        "source_ip": "198.51.100.25",
+        "username": "user01",
+        "event": "Phishing",
+        "message": "Suspicious email containing malicious URL"
+    },
+    {
+        "id": 105,
+        "timestamp": "2026-10-07 09:30:12",
+        "source_ip": "198.51.100.75",
+        "username": "user02",
+        "event": "Malware",
+        "message": "Suspicious executable detected"
+    }
+]

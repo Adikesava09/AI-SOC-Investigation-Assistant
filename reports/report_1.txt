@@ -1,0 +1,36 @@
+
+========================================
+       SOC INVESTIGATION REPORT
+========================================
+
+Report Time: 2026-10-07 12:33:30
+Alert ID: 1
+
+ALERT
+-----
+Multiple failed login attempts from 192.168.1.50
+
+CLASSIFICATION
+--------------
+Type: Brute Force
+MITRE ATT&CK: T1110 - Brute Force
+
+INDICATORS OF COMPROMISE
+------------------------
+IP Addresses: ['192.168.1.50']
+
+RISK ASSESSMENT
+---------------
+Score: 85
+Level: HIGH
+Reason: Multiple failed login attempts may indicate a brute-force attack.
+
+RECOMMENDED RESPONSE
+--------------------
+1. Investigate the source IP address
+2. Review authentication and security logs
+3. Check whether the user account is compromised
+4. Block the source IP if the attack is confirmed
+5. Escalate the incident to the SOC L2 team
+
+========================================

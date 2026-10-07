@@ -1,0 +1,34 @@
+
+========================================
+       SOC INVESTIGATION REPORT
+========================================
+
+Report Time: 2026-10-07 12:33:30
+Alert ID: 4
+
+ALERT
+-----
+Suspicious login detected from 172.16.10.20
+
+CLASSIFICATION
+--------------
+Type: Suspicious Login
+MITRE ATT&CK: T1078 - Valid Accounts
+
+INDICATORS OF COMPROMISE
+------------------------
+IP Addresses: ['172.16.10.20']
+
+RISK ASSESSMENT
+---------------
+Score: 65
+Level: MEDIUM
+Reason: Suspicious login activity requires verification.
+
+RECOMMENDED RESPONSE
+--------------------
+1. Verify the user's activity
+2. Review relevant security logs
+3. Continue monitoring for additional activity
+
+========================================

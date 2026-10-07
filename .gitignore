@@ -1,0 +1,4 @@
+database/soc.db
+__pycache__/
+*.pyc
+.env

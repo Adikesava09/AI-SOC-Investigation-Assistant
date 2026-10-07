@@ -1,0 +1,36 @@
+
+========================================
+       SOC INVESTIGATION REPORT
+========================================
+
+Report Time: 2026-10-07 12:33:30
+Alert ID: 2
+
+ALERT
+-----
+Suspicious phishing email detected from 203.0.113.25
+
+CLASSIFICATION
+--------------
+Type: Phishing
+MITRE ATT&CK: T1566 - Phishing
+
+INDICATORS OF COMPROMISE
+------------------------
+IP Addresses: ['203.0.113.25']
+
+RISK ASSESSMENT
+---------------
+Score: 90
+Level: CRITICAL
+Reason: A phishing attack may lead to credential theft or malware infection.
+
+RECOMMENDED RESPONSE
+--------------------
+1. Immediately investigate the affected system
+2. Collect relevant security and endpoint logs
+3. Isolate the affected system if compromise is confirmed
+4. Investigate the source IP, domain or file
+5. Escalate the incident to SOC L2/Incident Response team
+
+========================================

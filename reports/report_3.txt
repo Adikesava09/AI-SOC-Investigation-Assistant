@@ -1,0 +1,36 @@
+
+========================================
+       SOC INVESTIGATION REPORT
+========================================
+
+Report Time: 2026-10-07 12:33:30
+Alert ID: 3
+
+ALERT
+-----
+Malware detected on workstation 10.10.20.45
+
+CLASSIFICATION
+--------------
+Type: Malware
+MITRE ATT&CK: T1204 - User Execution
+
+INDICATORS OF COMPROMISE
+------------------------
+IP Addresses: ['10.10.20.45']
+
+RISK ASSESSMENT
+---------------
+Score: 95
+Level: CRITICAL
+Reason: Malware detection may indicate a compromised system.
+
+RECOMMENDED RESPONSE
+--------------------
+1. Immediately investigate the affected system
+2. Collect relevant security and endpoint logs
+3. Isolate the affected system if compromise is confirmed
+4. Investigate the source IP, domain or file
+5. Escalate the incident to SOC L2/Incident Response team
+
+========================================
